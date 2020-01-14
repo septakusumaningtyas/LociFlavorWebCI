@@ -30,10 +30,10 @@
 
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav ml-auto">
-	        	<li class="nav-item active"><a href="<?php echo base_url(); ?>" class="nav-link">Home</a></li>
-	        	<li class="nav-item"><a href="<?php echo base_url("about"); ?>" class="nav-link">About</a></li>
-	        	<li class="nav-item"><a href="<?php echo base_url("menu"); ?>" class="nav-link">Menu</a></li>
-	          <li class="nav-item"><a href="<?php echo base_url("contact"); ?>" class="nav-link">Contact</a></li>
+	        	<li class="nav-item <?php if($this->uri->segment(1)==""){echo "active";}?>"><a href="<?php echo base_url(""); ?>" class="nav-link">Home</a></li>
+	        	<li class="nav-item <?php if($this->uri->segment(1)=="about"){echo "active";}?>"><a href="<?php echo base_url("about"); ?>" class="nav-link">About</a></li>
+	        	<li class="nav-item <?php if($this->uri->segment(1)=="menu"){echo "active";}?>"><a href="<?php echo base_url("menu"); ?>" class="nav-link">Menu</a></li>
+	          <li class="nav-item <?php if($this->uri->segment(1)=="contact"){echo "active";}?>"><a href="<?php echo base_url("contact"); ?>" class="nav-link">Contact</a></li>
 	          <li class="nav-item cta"><a href="<?php echo base_url("reservation"); ?>" class="nav-link">Book a table</a></li>
 	        </ul>
 	      </div>
