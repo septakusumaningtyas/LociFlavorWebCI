@@ -342,7 +342,7 @@
                 </div>
                 <div class="col-md-6">
                   <div class="form-group">
-                    <label for="">Phone</label>
+                    <label for="">Date</label>
                     <input type="text" class="form-control" id="book_date" placeholder="Date">
                   </div>
                 </div>
