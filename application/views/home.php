@@ -466,6 +466,7 @@
 	            <h2 class="mb-4">Make Reservation</h2>
 	          </div>
             <form action="#">
+						<fieldset disabled>
               <div class="row">
                 <div class="col-md-6">
                   <div class="form-group">
@@ -498,23 +499,15 @@
                   </div>
                 </div>
                 <div class="col-md-6">
-                  <div class="form-group">
-                    <label for="">Person</label>
-                    <div class="select-wrap one-third">
-                      <div class="icon"><span class="ion-ios-arrow-down"></span></div>
-                      <select name="" id="" class="form-control">
-                        <option value="">Person</option>
-                        <option value="">1</option>
-                        <option value="">2</option>
-                        <option value="">3</option>
-                        <option value="">4+</option>
-                      </select>
-                    </div>
-                  </div>
-                </div>
+	                <div class="form-group">
+	                  <label for="">Person</label>
+	                  <input type="number" class="form-control" name="book_person" id="book_person" placeholder="Person">
+	                </div>
+	              </div>
+								</fieldset>
                 <div class="col-md-12 mt-3">
                   <div class="form-group">
-                    <input type="submit" value="Make a Reservation" class="btn btn-primary py-3 px-5">
+									<a href="<?php echo base_url("reservation"); ?>" class="btn btn-primary p-3 px-xl-4 py-xl-3">Make a reservation</a>
                   </div>
                 </div>
               </div>

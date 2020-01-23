@@ -5,8 +5,8 @@
 		<div class="container">
 			<div class="row justify-content-center mb-5 pb-2">
         <div class="col-md-7 text-center heading-section ftco-animate">
-        	<span class="subheading">List</span>
-          <h2 class="mb-4">Menu List</h2>
+        	<span class="subheading">Specialties</span>
+          <h2 class="mb-4">Our Menu</h2>
         </div>
       </div>
 		<div class="row align-items-center">
@@ -14,20 +14,19 @@
 				<table id="menu" class="table table-stripped text-center mt-3" style="width:100%">
 					<thead>
 					    <tr>
-                            <th>No</th>
-							<th>Nama Menu</th>
-							<th>Deskripsi Menu</th>
-							<th>Harga Menu</th>
-							<th>Gambar</th>
-							
+              <th>No</th>
+							<th>Menu</th>
+							<th>Description</th>
+							<th>Price</th>
+							<th>Picture</th>
 						</tr>
 					</thead>
 					<tbody>
 						<?php
 							foreach ($tb_menu as $t){
 								echo "
-                                <tr>
-                                    <td>$t->key_menu</td>
+                  <tr>
+                  <td>$t->key_menu</td>
 									<td>$t->name_menu</td>
 									<td>$t->desc_menu</td>
 									<td>$t->price_menu</td>
