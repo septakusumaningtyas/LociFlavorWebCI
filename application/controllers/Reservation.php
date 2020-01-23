@@ -13,5 +13,7 @@ class Reservation extends CI_Controller {
       //$this->load->view('list_reservation',$data);
       $this->load->view('template/footer');
       $this->load->view('template/script');
+      $data['tb_reservation'] = $this->model_reservation->get_reservation()->result();
+      $this->load->view('get_reservation', $data);
    }
 }

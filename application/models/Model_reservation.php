@@ -2,9 +2,9 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Model_reservation extends CI_Model{
-    public function GetReservation(){
-        $data = $this->db->query("SELECT * FROM tb_reservation");
-        return $data->result_array();
+    public function get_reservation(){
+        $tb_reservation = $this->db->get('tb_reservation');
+        return $tb_reservation;
     }
 }
 ?>
