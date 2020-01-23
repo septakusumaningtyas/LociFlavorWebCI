@@ -11,7 +11,7 @@
       </div>
     </section>
 	
-		<section class="ftco-section">
+		<!-- <section class="ftco-section">
     	<div class="container-fluid px-4">
     		<div class="row justify-content-center mb-5 pb-2">
           <div class="col-md-7 text-center heading-section ftco-animate">
@@ -164,8 +164,8 @@
             </div>
         	</div>
 
-        	<!--  -->
-        	<div class="col-md-6 col-lg-4 menu-wrap">
+        	 <!-- -->
+        	<!-- <div class="col-md-6 col-lg-4 menu-wrap">
         		<div class="heading-menu text-center ftco-animate">
         			<h3>Desserts</h3>
         		</div>
@@ -310,7 +310,7 @@
         	</div>
         </div>
     	</div>
-    </section>
+    </section> --> -->
 
     <section class="ftco-section ftco-no-pt ftco-no-pb">
 			<div class="container-fluid px-0">
