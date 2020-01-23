@@ -5,7 +5,7 @@ class Reservation extends CI_Controller {
    public function index()
    {
       $this->load->model('model_reservation');
-      //$data['reservation'] = $this->model_reservation->GetReservation()->result();
+      $data['tb_reservation'] = $this->model_reservation->get_reservation()->result();
       $data['title'] = "Loci Flavor - Reservation";
       $this->load->view('template/header' , $data);
       $this->load->view('template/navbar');
@@ -13,8 +13,6 @@ class Reservation extends CI_Controller {
       $this->load->view('list_reservation',$data);
       $this->load->view('template/footer');
       $this->load->view('template/script');
-      $data['tb_reservation'] = $this->model_reservation->get_reservation()->result();
-      $this->load->view('get_reservation', $data);
    }
    function input()
    {
@@ -24,9 +22,14 @@ class Reservation extends CI_Controller {
    function input_simpan()
    {
       $data = array(
-         'kode_barang'   =>  $this->input->post('kode_barang'),
-         'nama_barang'   =>  $this->input->post('nama_barang'),            'harga'         =>  $this->input->post('harga_barang'));
+         'name_reservation'   =>  $this->input->post('book_name'),
+         'email_reservation'  =>  $this->input->post('book_email'),
+         'phone_reservation'  =>  $this->input->post('book_phone'),
+         'date_reservation'   =>  $this->input->post('book_date'),
+         'time_reservation'   =>  $this->input->post('book_time'),
+         'person_reservation'   =>  $this->input->post('book_person')
+      );
         $this->db->insert('tb_reservation',$data);
-        redirect('tb_reservation');   
+        redirect('reservation/index');   
    }
 }

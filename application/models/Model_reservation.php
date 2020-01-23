@@ -6,5 +6,9 @@ class Model_reservation extends CI_Model{
         $tb_reservation = $this->db->get('tb_reservation');
         return $tb_reservation;
     }
+
+    // public function input_data($data,$table){
+	// 	$this->db->insert($table,$data);
+	// }
 }
 ?>
