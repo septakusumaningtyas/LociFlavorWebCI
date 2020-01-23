@@ -1,3 +1,4 @@
+
 <section class="book-info-area section-gap">
 	<div class="container">
         <h2 class="judul-book">This is the reservation list</h2>
@@ -16,15 +17,15 @@
 					</thead>
 					<tbody>
 						<?php
-							foreach ($tb_reservation as $tr){
+							foreach ($tb_reservation as $t){
 								echo "
 								<tr>
-									<td>$tr->name_reservation</td>
-									<td>$tr->email_reservation</td>
-									<td>$tr->phone_reservaion</td>
-									<td>$tr->date_reservation</td>
-									<td>$tr->time_reservation</td>
-									<td>$tr->person_reservation</td>
+									<td>$t->name_reservation</td>
+									<td>$t->email_reservation</td>
+									<td>$t->phone_reservaion</td>
+									<td>$t->date_reservation</td>
+									<td>$t->time_reservation</td>
+									<td>$t->person_reservation</td>
 								</tr>
 								";
 							}
