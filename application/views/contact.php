@@ -46,18 +46,18 @@
 				<div class="row d-flex align-items-stretch no-gutters">
 					<div class="col-md-6 p-5 order-md-last">
 						<h2 class="h4 mb-5 font-weight-bold">Contact Us</h2>
-						<form action="#">
+						<form action="<?php echo base_url(). 'Contact/input_simpan'; ?>" method="post">
               <div class="form-group">
-                <input type="text" class="form-control" placeholder="Your Name">
+                <input type="text" class="form-control" placeholder="Your Name" name="name_email" id="name_email">
               </div>
               <div class="form-group">
-                <input type="text" class="form-control" placeholder="Your Email">
+                <input type="text" class="form-control" placeholder="Your Email" name="email_email" id="email_email">
               </div>
               <div class="form-group">
-                <input type="text" class="form-control" placeholder="Subject">
+                <input type="text" class="form-control" placeholder="Subject" name="subject_email" id="subject_email">
               </div>
               <div class="form-group">
-                <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+                <textarea cols="30" rows="7" class="form-control" placeholder="Message" name="msg_email" id="msg_email"></textarea>
               </div>
               <div class="form-group">
                 <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
