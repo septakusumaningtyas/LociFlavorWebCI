@@ -322,49 +322,47 @@
 	          	<span class="subheading">Book a table</span>
 	            <h2 class="mb-4">Make Reservation</h2>
 	          </div>
-            <form action="#">
-						<fieldset disabled>
+            <form action="<?php echo base_url(). 'Reservation/input_simpan'; ?> " method="post">
               <div class="row">
                 <div class="col-md-6">
                   <div class="form-group">
                     <label for="">Name</label>
-                    <input type="text" class="form-control" placeholder="Your Name">
+                    <input type="text" class="form-control" name="book_name" id="book_name" placeholder="Your Name">
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="form-group">
                     <label for="">Email</label>
-                    <input type="text" class="form-control" placeholder="Your Email">
+                    <input type="text" class="form-control" name="book_email" id="book_email" placeholder="Your Email">
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="form-group">
                     <label for="">Phone</label>
-                    <input type="text" class="form-control" placeholder="Phone">
+                    <input type="text" class="form-control" name="book_phone" id="book_phone" placeholder="Phone">
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="form-group">
                     <label for="">Date</label>
-                    <input type="text" class="form-control" id="book_date" placeholder="Date">
+                    <input type="text" class="form-control" name="book_date" id="book_date" id="book_date" placeholder="Date">
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="form-group">
                     <label for="">Time</label>
-                    <input type="text" class="form-control" id="book_time" placeholder="Time">
+                    <input type="text" class="form-control" name="book_time" id="book_time" id="book_time" placeholder="Time">
                   </div>
                 </div>
                 <div class="col-md-6">
 	                <div class="form-group">
 	                  <label for="">Person</label>
-	                  <input type="number" class="form-control" name="book_person" id="book_person" placeholder="Person">
+	                  <input type="number" class="form-control" name="book_person" id="book_person" name="book_person" id="book_person" placeholder="Person">
 	                </div>
 	              </div>
-								</fieldset>
                 <div class="col-md-12 mt-3">
                   <div class="form-group">
-									<a href="<?php echo base_url("reservation"); ?>" class="btn btn-primary p-3 px-xl-4 py-xl-3">Make a reservation</a>
+									<input type="submit" value="Make a Reservation" class="btn btn-primary py-3 px-5">
                   </div>
                 </div>
               </div>
