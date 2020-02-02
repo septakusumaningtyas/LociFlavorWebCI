@@ -156,306 +156,57 @@
 			</div>
 		</section>
 
-    <section class="ftco-section">
-    	<div class="container-fluid px-4">
-    		<div class="row justify-content-center mb-5 pb-2">
-          <div class="col-md-7 text-center heading-section ftco-animate">
-          	<span class="subheading">Specialties</span>
-            <h2 class="mb-4">Our Menu</h2>
-          </div>
-        </div>
-        <div class="row">
-        	<div class="col-md-6 col-lg-4 menu-wrap">
-        		<div class="heading-menu text-center ftco-animate">
-        			<h3>Breakfast</h3>
-        		</div>
-        		<div class="menus d-flex ftco-animate">
-              <div class="menu-img img" style="background-image: url(<?php echo base_url("assets/"); ?>images/breakfast-1.jpg);"></div>
-              <div class="text">
-              	<div class="d-flex">
-	                <div class="one-half">
-	                  <h3>Burritos</h3>
-	                </div>
-	                <div class="one-forth">
-	                  <span class="price">Rp17K</span>
-	                </div>
-	              </div>
-	              <p><span>Jamur</span>, <span>Sosis</span>, <span>Tortilla</span>, <span>Paprika</span></p>
-              </div>
-            </div>
-            <div class="menus d-flex ftco-animate">
-              <div class="menu-img img" style="background-image: url(<?php echo base_url("assets/"); ?>images/breakfast-2.jpg);"></div>
-              <div class="text">
-              	<div class="d-flex">
-	                <div class="one-half">
-	                  <h3>Bubur Ayam</h3>
-	                </div>
-	                <div class="one-forth">
-	                  <span class="price">Rp15K</span>
-	                </div>
-	              </div>
-	              <p><span>Beras</span>, <span>Ayam</span>, <span>Kaldu Ayam</span>, <span>Kerupuk</span></p>
-              </div>
-            </div>
-            <div class="menus d-flex ftco-animate">
-              <div class="menu-img img" style="background-image: url(<?php echo base_url("assets/"); ?>images/breakfast-3.jpg);"></div>
-              <div class="text">
-              	<div class="d-flex">
-	                <div class="one-half">
-	                  <h3>Lontong Sayur</h3>
-	                </div>
-	                <div class="one-forth">
-	                  <span class="price">Rp13K</span>
-	                </div>
-	              </div>
-	              <p><span>Lontong</span>, <span>Udang</span>, <span>Labu</span>, <span>Susu</span></p>
-              </div>
-            </div>
-        	</div>
-
-        	<div class="col-md-6 col-lg-4 menu-wrap">
-        		<div class="heading-menu text-center ftco-animate">
-        			<h3>Lunch</h3>
-        		</div>
-        		<div class="menus d-flex ftco-animate">
-              <div class="menu-img img" style="background-image: url(<?php echo base_url("assets/"); ?>images/lunch-1.jpg);"></div>
-              <div class="text">
-              	<div class="d-flex">
-	                <div class="one-half">
-	                  <h3>Salad Ayam</h3>
-	                </div>
-	                <div class="one-forth">
-	                  <span class="price">Rp20K</span>
-	                </div>
-	              </div>
-	              <p><span>Ayam</span>, <span>Mayonaise</span>, <span>Paprika</span>, <span>Sayur</span></p>
-              </div>
-            </div>
-            <div class="menus d-flex ftco-animate">
-              <div class="menu-img img" style="background-image: url(<?php echo base_url("assets/"); ?>images/lunch-2.jpg);"></div>
-              <div class="text">
-              	<div class="d-flex">
-	                <div class="one-half">
-	                  <h3>Sandwich Daging</h3>
-	                </div>
-	                <div class="one-forth">
-	                  <span class="price">Rp12K</span>
-	                </div>
-	              </div>
-	              <p><span>Roti Tawar</span>, <span>Keju</span>, <span>Daging</span>, <span>Selada</span></p>
-              </div>
-            </div>
-            <div class="menus d-flex ftco-animate">
-              <div class="menu-img img" style="background-image: url(<?php echo base_url("assets/"); ?>images/lunch-3.jpg);"></div>
-              <div class="text">
-              	<div class="d-flex">
-	                <div class="one-half">
-	                  <h3>Kimbab</h3>
-	                </div>
-	                <div class="one-forth">
-	                  <span class="price">Rp10K</span>
-	                </div>
-	              </div>
-	              <p><span>Bayam</span>, <span>Timun</span>, <span>Wortel</span>, <span>Sosis</span></p>
-              </div>
-            </div>
-        	</div>
-
-        	<div class="col-md-6 col-lg-4 menu-wrap">
-        		<div class="heading-menu text-center ftco-animate">
-        			<h3>Dinner</h3>
-        		</div>
-        		<div class="menus d-flex ftco-animate">
-              <div class="menu-img img" style="background-image: url(<?php echo base_url("assets/"); ?>images/dinner-1.jpg);"></div>
-              <div class="text">
-              	<div class="d-flex">
-	                <div class="one-half">
-	                  <h3>Pecel Lele</h3>
-	                </div>
-	                <div class="one-forth">
-	                  <span class="price">Rp15K</span>
-	                </div>
-	              </div>
-	              <p><span>Lele</span>, <span>Sambal</span>, <span>Jeruk Nipis</span></p>
-              </div>
-            </div>
-            <div class="menus d-flex ftco-animate">
-              <div class="menu-img img" style="background-image: url(<?php echo base_url("assets/"); ?>images/dinner-2.jpg);"></div>
-              <div class="text">
-              	<div class="d-flex">
-	                <div class="one-half">
-	                  <h3>Nasi Goreng</h3>
-	                </div>
-	                <div class="one-forth">
-	                  <span class="price">Rp10K</span>
-	                </div>
-	              </div>
-	              <p><span>Nasi</span>, <span>Telur</span>, <span>Sayur</span>, <span>Timun</span></p>
-              </div>
-            </div>
-            <div class="menus d-flex ftco-animate">
-              <div class="menu-img img" style="background-image: url(<?php echo base_url("assets/"); ?>images/dinner-3.jpg);"></div>
-              <div class="text">
-              	<div class="d-flex">
-	                <div class="one-half">
-	                  <h3>Soto Ayam</h3>
-	                </div>
-	                <div class="one-forth">
-	                  <span class="price">Rp9K</span>
-	                </div>
-	              </div>
-	              <p><span>Nasi</span>, <span>Ayam</span>, <span>Bihun</span>, <span>Telur</span></p>
-              </div>
-            </div>
-        	</div>
-
-        	<!--  -->
-        	<div class="col-md-6 col-lg-4 menu-wrap">
-        		<div class="heading-menu text-center ftco-animate">
-        			<h3>Desserts</h3>
-        		</div>
-        		<div class="menus d-flex ftco-animate">
-              <div class="menu-img img" style="background-image: url(<?php echo base_url("assets/"); ?>images/dessert-1.jpg);"></div>
-              <div class="text">
-              	<div class="d-flex">
-	                <div class="one-half">
-	                  <h3>Pancake Mangga</h3>
-	                </div>
-	                <div class="one-forth">
-	                  <span class="price">Rp13K</span>
-	                </div>
-	              </div>
-	              <p><span>Susu</span>, <span>Tepung</span>, <span>Mangga</span>, <span>Cream</span></p>
-              </div>
-            </div>
-            <div class="menus d-flex ftco-animate">
-              <div class="menu-img img" style="background-image: url(<?php echo base_url("assets/"); ?>images/dessert-2.jpg);"></div>
-              <div class="text">
-              	<div class="d-flex">
-	                <div class="one-half">
-	                  <h3>Puding Lumut</h3>
-	                </div>
-	                <div class="one-forth">
-	                  <span class="price">Rp10K</span>
-	                </div>
-	              </div>
-	              <p><span>Santan</span>, <span>Air</span>, <span>Pisang</span>, <span>Cocos</span></p>
-              </div>
-            </div>
-            <div class="menus d-flex ftco-animate">
-              <div class="menu-img img" style="background-image: url(<?php echo base_url("assets/"); ?>images/dessert-3.jpg);"></div>
-              <div class="text">
-              	<div class="d-flex">
-	                <div class="one-half">
-	                  <h3>Setup Roti Tawar</h3>
-	                </div>
-	                <div class="one-forth">
-	                  <span class="price">Rp11K</span>
-	                </div>
-	              </div>
-	              <p><span>Roti</span>, <span>Susu</span>, <span>Keju</span>, <span>Santan</span></p>
-              </div>
-            </div>
-        	</div>
-        	
-        	<div class="col-md-6 col-lg-4 menu-wrap">
-        		<div class="heading-menu text-center ftco-animate">
-        			<h3>Coffe</h3>
-        		</div>
-        		<div class="menus d-flex ftco-animate">
-              <div class="menu-img img" style="background-image: url(<?php echo base_url("assets/"); ?>images/coffe-1.jpg);"></div>
-              <div class="text">
-              	<div class="d-flex">
-	                <div class="one-half">
-	                  <h3>Espresso</h3>
-	                </div>
-	                <div class="one-forth">
-	                  <span class="price">Rp18K</span>
-	                </div>
-	              </div>
-	              <p><span>Kopi</span>, <span>Air</span>, <span>Gula</span></p>
-              </div>
-            </div>
-            <div class="menus d-flex ftco-animate">
-              <div class="menu-img img" style="background-image: url(<?php echo base_url("assets/"); ?>images/coffe-2.jpg);"></div>
-              <div class="text">
-              	<div class="d-flex">
-	                <div class="one-half">
-	                  <h3>Ristretto</h3>
-	                </div>
-	                <div class="one-forth">
-	                  <span class="price">Rp15K</span>
-	                </div>
-	              </div>
-	              <p><span>Kopi</span>, <span>Air</span>, <span>Gula</span></p>
-              </div>
-            </div>
-            <div class="menus d-flex ftco-animate">
-              <div class="menu-img img" style="background-image: url(<?php echo base_url("assets/"); ?>images/coffe-3.jpg);"></div>
-              <div class="text">
-              	<div class="d-flex">
-	                <div class="one-half">
-	                  <h3>Americano</h3>
-	                </div>
-	                <div class="one-forth">
-	                  <span class="price">Rp16K</span>
-	                </div>
-	              </div>
-	              <p><span>Kopi</span>, <span>Air</span>, <span>Gula</span></p>
-              </div>
-            </div>
-        	</div>
-
-        	<div class="col-md-6 col-lg-4 menu-wrap">
-        		<div class="heading-menu text-center ftco-animate">
-        			<h3>Drinks</h3>
-        		</div>
-        		<div class="menus d-flex ftco-animate">
-              <div class="menu-img img" style="background-image: url(<?php echo base_url("assets/"); ?>images/drink-1.jpg);"></div>
-              <div class="text">
-              	<div class="d-flex">
-	                <div class="one-half">
-	                  <h3>Ice Blend</h3>
-	                </div>
-	                <div class="one-forth">
-	                  <span class="price">Rp10K</span>
-	                </div>
-	              </div>
-	              <p><span>Sirup</span>, <span>Perasa</span>, <span>Air</span>, <span>Cream</span></p>
-              </div>
-            </div>
-            <div class="menus d-flex ftco-animate">
-              <div class="menu-img img" style="background-image: url(<?php echo base_url("assets/"); ?>images/drink-2.jpg);"></div>
-              <div class="text">
-              	<div class="d-flex">
-	                <div class="one-half">
-	                  <h3>Milk Shake</h3>
-	                </div>
-	                <div class="one-forth">
-	                  <span class="price">Rp12K</span>
-	                </div>
-	              </div>
-	              <p><span>Perasa</span>, <span>Susu</span>, <span>Topping</span>, <span>Pemanis</span></p>
-              </div>
-            </div>
-            <div class="menus d-flex ftco-animate">
-              <div class="menu-img img" style="background-image: url(<?php echo base_url("assets/"); ?>images/drink-3.jpg);"></div>
-              <div class="text">
-              	<div class="d-flex">
-	                <div class="one-half">
-	                  <h3>Smoothie</h3>
-	                </div>
-	                <div class="one-forth">
-	                  <span class="price">Rp13K</span>
-	                </div>
-	              </div>
-	              <p><span>Buah</span>, <span>Air</span>, <span>Susu</span>, <span>Yogurt</span></p>
-              </div>
-            </div>
-        	</div>
-        </div>
-    	</div>
-    </section>
+		<section class="ftco-section">
+			<div class="container-fluid px-4">
+				<div class="row justify-content-center mb-5 pb-2">
+					<div class="col-md-7 text-center heading-section ftco-animate">
+						<span class="subheading">Specialties</span>
+						<h2 class="mb-4">Our Menu</h2>
+					</div>
+				</div>
+				<div class="row">
+					<?php 
+						$arrKat = array(
+							array("Breakfast", array(1,2,3)),
+							array("Lunch", array(4,5,6)),
+							array("Dinner", array(7,8,9)),
+							array("Dessert", array(10,11,12)),
+							array("Coffee", array(13,14,15)),
+							array("Drinks", array(16,17,18))
+						);
+						
+						foreach ($arrKat as $kat){ ?>
+							<div class="col-md-6 col-lg-4 menu-wrap">
+								<div class="heading-menu text-center ftco-animate">
+									<h3><?php echo $kat[0]; ?></h3>
+								</div>
+								<?php 
+								foreach ($tb_menu as $t){
+										if (in_array($t->key_menu, $kat[1])) { ?>
+											<div class="menus d-flex ftco-animate">
+												<div class="menu-img img" style="background-image: url(<?php echo base_url('assets/'.$t->img_menu); ?>);"></div>
+												<div class="text">
+												<div class="d-flex">
+													<div class="one-half">
+														<h3><?php echo $t->name_menu; ?></h3>
+													</div>
+													<div class="one-forth">
+														<span class="price"><?php echo $t->price_menu; ?></span>
+													</div>
+													</div>
+													<p><?php echo $t->desc_menu; ?></p>
+												</div>
+											</div>
+										
+										<?php } ?>
+									<?php }
+								?>
+							</div>
+						<?php } ?>
+						
+				</div>
+			</div>
+		</section>
 
     <section class="ftco-section ftco-no-pt ftco-no-pb">
 			<div class="container-fluid px-0">
@@ -465,37 +216,36 @@
 	          	<span class="subheading">Book a table</span>
 	            <h2 class="mb-4">Make Reservation</h2>
 	          </div>
-            <form action="#">
-						<fieldset disabled>
+            <form action="<?php echo base_url(). 'Reservation/input_simpan'; ?> " method="post">
               <div class="row">
                 <div class="col-md-6">
                   <div class="form-group">
                     <label for="">Name</label>
-                    <input type="text" class="form-control" placeholder="Your Name">
+                    <input type="text" class="form-control" name="book_name" id="book_name" placeholder="Your Name">
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="form-group">
                     <label for="">Email</label>
-                    <input type="text" class="form-control" placeholder="Your Email">
+                    <input type="text" class="form-control" name="book_email" id="book_email" placeholder="Your Email">
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="form-group">
                     <label for="">Phone</label>
-                    <input type="text" class="form-control" placeholder="Phone">
+                    <input type="text" class="form-control" name="book_phone" id="book_phone" placeholder="Phone">
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="form-group">
                     <label for="">Date</label>
-                    <input type="text" class="form-control" id="book_date" placeholder="Date">
+                    <input type="text" class="form-control" name="book_date" id="book_date" placeholder="Date">
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="form-group">
                     <label for="">Time</label>
-                    <input type="text" class="form-control" id="book_time" placeholder="Time">
+                    <input type="text" class="form-control" name="book_time" id="book_time" placeholder="Time">
                   </div>
                 </div>
                 <div class="col-md-6">
@@ -504,10 +254,9 @@
 	                  <input type="number" class="form-control" name="book_person" id="book_person" placeholder="Person">
 	                </div>
 	              </div>
-								</fieldset>
                 <div class="col-md-12 mt-3">
                   <div class="form-group">
-									<a href="<?php echo base_url("reservation"); ?>" class="btn btn-primary p-3 px-xl-4 py-xl-3">Make a reservation</a>
+									<input type="submit" value="Make a Reservation" class="btn btn-primary py-3 px-5">
                   </div>
                 </div>
               </div>
