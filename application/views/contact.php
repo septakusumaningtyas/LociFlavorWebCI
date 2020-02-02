@@ -11,7 +11,25 @@
       </div>
     </section>
 	
-		<section class="ftco-section contact-section bg-light">
+	<?php if(isset($_SESSION['contact_insert_id'])){ ?>
+	<section class="ftco-section contact-section bg-light">
+      <div class="container">
+        <div class="row d-flex contact-info">
+          <div class="col-md-12 mb-4">
+			<div class="alert alert-success alert-dismissible fade show" role="alert">
+			  <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+			  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+				<span aria-hidden="true">&times;</span>
+			  </button>
+			</div>
+				<?php //echo $_SESSION['contact_insert_id'];?>
+					
+		  </div>
+		</div>
+	   </div>
+	</section>
+	<?php } ?>
+	<section class="ftco-section contact-section bg-light">
       <div class="container">
         <div class="row d-flex contact-info">
           <div class="col-md-12 mb-4">
@@ -47,22 +65,22 @@
 					<div class="col-md-6 p-5 order-md-last">
 						<h2 class="h4 mb-5 font-weight-bold">Contact Us</h2>
 						<form action="<?php echo base_url(). 'Contact/input_simpan'; ?>" method="post">
-              <div class="form-group">
-                <input type="text" class="form-control" placeholder="Your Name" name="name_email" id="name_email">
-              </div>
-              <div class="form-group">
-                <input type="text" class="form-control" placeholder="Your Email" name="email_email" id="email_email">
-              </div>
-              <div class="form-group">
-                <input type="text" class="form-control" placeholder="Subject" name="subject_email" id="subject_email">
-              </div>
-              <div class="form-group">
-                <textarea cols="30" rows="7" class="form-control" placeholder="Message" name="msg_email" id="msg_email"></textarea>
-              </div>
-              <div class="form-group">
-                <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
-              </div>
-            </form>
+						  <div class="form-group">
+							<input type="text" class="form-control" placeholder="Your Name" name="name_email" id="name_email">
+						  </div>
+						  <div class="form-group">
+							<input type="text" class="form-control" placeholder="Your Email" name="email_email" id="email_email">
+						  </div>
+						  <div class="form-group">
+							<input type="text" class="form-control" placeholder="Subject" name="subject_email" id="subject_email">
+						  </div>
+						  <div class="form-group">
+							<textarea cols="30" rows="7" class="form-control" placeholder="Message" name="msg_email" id="msg_email"></textarea>
+						  </div>
+						  <div class="form-group">
+							<input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
+						  </div>
+						</form>
 					</div>
 					<div class="col-md-6 d-flex align-items-stretch">
 						<div id="map"></div>
