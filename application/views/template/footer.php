@@ -1,3 +1,11 @@
+  <?php if(isset($_SESSION['subscribe_insert_id'])){ ?>
+		<div class="alert alert-success alert-dismissible fade show" role="alert">
+		  <strong>Thank you for subscribing.</strong> Please wait our update in your inbox.
+		  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+				<span aria-hidden="true">&times;</span>
+		  </button>
+		</div>
+	<?php } ?>
 <footer class="ftco-footer ftco-bg-dark ftco-section">
       <div class="container-fluid px-md-5 px-3">
         <div class="row mb-5">
@@ -30,9 +38,9 @@
             <div class="ftco-footer-widget mb-4">
             	<h2 class="ftco-heading-2">Newsletter</h2>
             	<p>Enter your email address to get updated news from Loci Flavor.</p>
-              <form action="#" class="subscribe-form">
+              <form action="<?php echo base_url(). 'Contact/input_subscribe'; ?>" class="subscribe-form">
                 <div class="form-group">
-                  <input type="text" class="form-control mb-2 text-center" placeholder="Enter email address">
+                  <input type="text" class="form-control mb-2 text-center" placeholder="Enter email address" name="email_cust" id="email_cust">
                   <input type="submit" value="Subscribe" class="form-control submit px-3">
                 </div>
               </form>

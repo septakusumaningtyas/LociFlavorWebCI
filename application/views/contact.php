@@ -12,22 +12,12 @@
     </section>
 	
 	<?php if(isset($_SESSION['contact_insert_id'])){ ?>
-	<section class="ftco-section contact-section bg-light">
-      <div class="container">
-        <div class="row d-flex contact-info">
-          <div class="col-md-12 mb-4">
-			<div class="alert alert-success alert-dismissible fade show" role="alert">
-			  <strong>Holy guacamole!</strong> You should check in on some of those fields below.
-			  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+		<div class="alert alert-success alert-dismissible fade show" role="alert">
+		  <strong>Thank you.</strong> Your message has been sent.
+		  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
 				<span aria-hidden="true">&times;</span>
-			  </button>
-			</div>
-				<?php //echo $_SESSION['contact_insert_id'];?>
-					
-		  </div>
+		  </button>
 		</div>
-	   </div>
-	</section>
 	<?php } ?>
 	<section class="ftco-section contact-section bg-light">
       <div class="container">
