@@ -12,6 +12,7 @@ class Contact extends CI_Controller {
        $this->load->view('template/header' , $data);
        $this->load->view('template/navbar');
        $this->load->view('contact');
+    
        $this->load->view('template/footer');
        $this->load->view('template/script');
     }
@@ -49,6 +50,8 @@ class Contact extends CI_Controller {
          $insert_id = $this->db->insert_id();
  
          $_SESSION['subscribe_insert_id'] = $insert_id;
-         $this->session->mark_as_flash('subscribe_insert_id');   
+         $this->session->mark_as_flash('subscribe_insert_id'); 
+         
+         redirect('contact');  
     }
 }
