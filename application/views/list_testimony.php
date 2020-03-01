@@ -14,6 +14,11 @@
                 foreach ($tb_testimony as $t){ ?>
                     <div class="item">
                       <div class="testimony-wrap text-center pb-5">
+                        <div class="user-img mb-4" style="background-image: url(<?php echo base_url("assets/"); ?>images/account.png);">
+                          <span class="quote d-flex align-items-center justify-content-center">
+                            <i class="icon-quote-left"></i>
+                          </span>
+                        </div>
                         <div class="text p-3">
                           <p class="mb-4"><?php echo $t->msg_test; ?></p>
                           <p class="name"><?php echo $t->name_test; ?></p>
