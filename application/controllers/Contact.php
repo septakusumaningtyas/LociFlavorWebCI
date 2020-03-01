@@ -9,12 +9,11 @@ class Contact extends CI_Controller {
        $this->load->model('model_testimony');
        $data['tb_email'] = $this->model_contact->get_contact()->result();
        $data['tb_subscribe'] = $this->model_subscribe->get_subscribe()->result();
-       $data['tb_subscribe'] = $this->model_testimony->get_testimony()->result();
+       $data['tb_testimony'] = $this->model_testimony->get_testimony()->result();
        $data['title'] = "Loci Flavor - Contact";
        $this->load->view('template/header' , $data);
        $this->load->view('template/navbar');
        $this->load->view('contact');
-    
        $this->load->view('template/footer');
        $this->load->view('template/script');
     }
@@ -60,9 +59,9 @@ class Contact extends CI_Controller {
     function input_testimony()
     {
        $data = array(
-          'name_test'     =>  $this->input->post('name_test'),
-          'position_test'    =>  $this->input->post('position_test'),
-          'msg_test'  =>  $this->input->post('msg_test')
+          'name_test'      =>  $this->input->post('name_test'),
+          'position_test'  =>  $this->input->post('position_test'),
+          'msg_test'       =>  $this->input->post('msg_test')
        );
          $this->db->insert('tb_testimony',$data);
          
