@@ -9,12 +9,12 @@
 		<div class="row">
 			<?php 
 				$arrKat = array(
-					array("Breakfast", array(1,2,3)),
-					array("Lunch", array(4,5,6)),
-					array("Dinner", array(7,8,9)),
-					array("Dessert", array(10,11,12)),
-					array("Coffee", array(13,14,15)),
-					array("Drinks", array(16,17,18))
+					array("Breakfast", array(1,2,3,19,20,21,22,23)),
+					array("Lunch", array(4,5,6,24,25,26,27,28)),
+					array("Dinner", array(7,8,9,29,30,31,32,33,34)),
+					array("Dessert", array(10,11,12,35,36,37,38,39)),
+					array("Coffee", array(13,14,15,40,41,42,43,44,45)),
+					array("Drinks", array(16,17,18,46,47,48,49,50))
 				);
 				
 				foreach ($arrKat as $kat){ ?>
