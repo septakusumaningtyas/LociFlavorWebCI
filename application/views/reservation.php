@@ -11,6 +11,15 @@
       </div>
     </section>
 	
+		<?php if(isset($_SESSION['reservation_insert_id'])){ ?>
+			<div class="alert alert-success alert-dismissible fade show" role="alert">
+				<strong>Thank you.</strong> Your reservation has been sent.
+				<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+		<?php } ?>
+
 		<section class="ftco-section ftco-no-pt ftco-no-pb">
 			<div class="container-fluid px-0">
 				<div class="row d-flex no-gutters">
@@ -20,42 +29,49 @@
 		          	<span class="subheading">Book a table</span>
 		            <h2 class="mb-4">Make Reservation</h2>
 		          </div>
-	            <form action="<?php echo base_url(). 'Reservation/input_simpan'; ?> " method="post">
+							<?php echo form_open('Reservation/input_simpan');?>
+	            <form action="" method="post">
 	              <div class="row">
 	                <div class="col-md-6">
 	                  <div class="form-group">
 	                    <label for="">Name</label>
-	                    <input type="text" class="form-control" name="book_name" id="book_name" placeholder="Your Name">
-	                  </div>
+	                    <input type="text" class="form-control" name="book_name" id="book_name" placeholder="Your Name" >
+											<?php echo form_error('book_name');  ?>
+										</div>
 	                </div>
 	                <div class="col-md-6">
 	                  <div class="form-group">
 	                    <label for="">Email</label>
 	                    <input type="text" class="form-control" name="book_email" id="book_email" placeholder="Your Email">
+											<?php echo form_error('book_email');  ?>
 	                  </div>
 	                </div>
 	                <div class="col-md-6">
 	                  <div class="form-group">
 	                    <label for="">Phone</label>
 	                    <input type="text" class="form-control" name="book_phone" id="book_phone" placeholder="Phone">
+											<?php echo form_error('book_phone');  ?>
 	                  </div>
 	                </div>
 	                <div class="col-md-6">
 	                  <div class="form-group">
 	                    <label for="">Date</label>
 	                    <input type="text" class="form-control" name="book_date" id="book_date" placeholder="Date">
+											<?php echo form_error('book_date');  ?>
 	                  </div>
 	                </div>
 	                <div class="col-md-6">
 	                  <div class="form-group">
 	                    <label for="">Time</label>
 	                    <input type="text" class="form-control" name="book_time" id="book_time" placeholder="Time">
+											<?php echo form_error('book_time');  ?>
 	                  </div>
 	                </div>
 	                <div class="col-md-6">
 	                  <div class="form-group">
 	                    <label for="">Person</label>
 	                    <input type="number" class="form-control" name="book_person" id="book_person" placeholder="Person">
+											<?php echo form_error('book_person');  ?>
 	                  </div>
 	                </div>
 	                <div class="col-md-12 mt-3">
@@ -65,6 +81,7 @@
 	                </div>
 	              </div>
 	            </form>
+							<?php echo  form_close();?>
 	          </div>
           </div>
           <div class="col-md-6 d-flex align-items-stretch pb-5 pb-md-0">

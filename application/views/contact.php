@@ -65,16 +65,20 @@
 						<form action="<?php echo base_url(). 'Contact/input_simpan'; ?>" method="post">
 						  <div class="form-group">
 							<input type="text" class="form-control" placeholder="Your Name" name="name_email" id="name_email">
+							<?php echo form_error('name_email');  ?>
 						  </div>
 						  <div class="form-group">
 							<input type="text" class="form-control" placeholder="Your Email" name="email_email" id="email_email">
+							<?php echo form_error('email_email');  ?>
 						  </div>
 						  <div class="form-group">
 							<input type="text" class="form-control" placeholder="Subject" name="subject_email" id="subject_email">
+							<?php echo form_error('subject_email');  ?>
 						  </div>
 						  <div class="form-group">
 							<textarea cols="30" rows="7" class="form-control" placeholder="Message" name="msg_email" id="msg_email"></textarea>
-						  </div>
+						  <?php echo form_error('msg_email');  ?>
+							</div>
 						  <div class="form-group">
 							<input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
 						  </div>
@@ -113,18 +117,21 @@
                   <div class="form-group">
                     <label for="">Name</label>
                     <input type="text" class="form-control" name="name_test" id="name_test" placeholder="Your Name">
+										<?php echo form_error('name_test');  ?>
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="form-group">
                     <label for="">Position</label>
                     <input type="text" class="form-control" name="position_test" id="position_test" placeholder="Your Position">
-                  </div>
+										<?php echo form_error('position_test');  ?>
+									</div>
                 </div>
                 <div class="col-md-12">
                   <div class="form-group">
                     <label for="">Testimony</label>
                     <input type="text" class="form-control" name="msg_test" id="msg_test" placeholder="Your Testimony">
+										<?php echo form_error('msg_test');  ?>
                   </div>
                 </div>
                 <div class="col-md-12">

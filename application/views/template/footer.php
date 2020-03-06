@@ -1,11 +1,3 @@
-  <?php if(isset($_SESSION['subscribe_insert_id'])){ ?>
-		<div class="alert alert-success alert-dismissible fade show" role="alert">
-		  <strong>Thank you for subscribing.</strong> Please wait our update in your inbox.
-		  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-				<span aria-hidden="true">&times;</span>
-		  </button>
-		</div>
-	<?php } ?>
 <footer class="ftco-footer ftco-bg-dark ftco-section">
       <div class="container-fluid px-md-5 px-3">
         <div class="row mb-5">
@@ -37,13 +29,9 @@
           <div class="col-md-6 col-lg-3">
             <div class="ftco-footer-widget mb-4">
             	<h2 class="ftco-heading-2">Newsletter</h2>
-            	<p>Enter your email address to get updated news from Loci Flavor.</p>
-              <form action="<?php echo base_url(). 'Contact/input_subscribe'; ?>" class="subscribe-form">
-                <div class="form-group">
-                  <input type="text" class="form-control mb-2 text-center" placeholder="Enter email address" name="email_cust" id="email_cust">
-                  <input type="submit" value="Subscribe" class="form-control submit px-3">
-                </div>
-              </form>
+            	<p>Message us to get updated news from Loci Flavor.</p>
+              <p>Feel free to message us on loci_flavor@gmail.com</p>
+              <p>Or you can fill the message form on Contact menu.</p>
             </div>
           </div>
           <div class="col-md-6 col-lg-3">
@@ -66,14 +54,6 @@
 	            	</a>
 	            </div>
             </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12 text-center">
-
-            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
           </div>
         </div>
       </div>
